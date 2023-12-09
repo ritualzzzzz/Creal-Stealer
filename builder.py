@@ -27,7 +27,7 @@ print(f"""{Fore.LIGHTRED_EX}
 .▀    ▀  ▀ ▀▀▀▀▀▀▀▀•    ▀▀▀▀ .▀    ▀█▄▀▪ ▀█▄▀▪▀▀▀  ▀▀▀ .▀  ▀
 by ritualzzzz
 
-            Welcome to builder
+            Welcome to The best paid spoofer
 
 """)
 
@@ -37,7 +37,7 @@ time.sleep(1)
 while True:
     Write.Print("\nWhich option do you want to choose: ", Colors.red_to_yellow)
     Write.Print("\n1. Spoof hwid", Colors.red_to_yellow)
-    Write.Print("\n2. Spoof everything (Virus programs undetected)", Colors.red_to_yellow)
+    Write.Print("\n2. Spoof everything (you have to reinstall windows after)", Colors.red_to_yellow)
     Write.Print("\n3. Close", Colors.red_to_yellow)
     Write.Print("\nMake your selection: ", Colors.red_to_yellow, end="")
     choice = input()
